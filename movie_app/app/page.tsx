@@ -28,6 +28,7 @@ export default async function Home() {
             >
               <div className="movie">
                 <img
+                  alt="movieImg"
                   src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
                 />
                 <h4>{movie.original_title}</h4>
